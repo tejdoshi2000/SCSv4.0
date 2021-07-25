@@ -463,9 +463,7 @@ a {
     
     /* NEW MODIFICATIONS */
 
-    .intro{
-        height: 125vh;
-    }   
+
     .aboutus p{
         padding: 1rem;
     }
@@ -490,7 +488,7 @@ footer{
     font-size: 2rem;
 } 
 .aboutus p{
-    padding: 2rem 7rem;
+    padding: 2rem 12rem;
 }
 @media only  screen and (max-width:768px) {
  .aboutus{
@@ -498,10 +496,22 @@ footer{
      padding-top: 1rem;
 
     }
+    
+.aboutus p{
+    padding: 2rem 0rem;
+}
 }
     
 @media only screen and (max-width: 876px){
     .intro{
         height: 100vh;
+    }
+}
+@media only screen and (max-width: 520px){
+    .intro{
+        height: 130vh;
+    }
+    .aboutus p{
+        padding: 2rem 2rem;
     }
 }
