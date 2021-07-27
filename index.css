@@ -8,7 +8,7 @@
 }/* Flipping cards */
 /* Additions */
 .services{
-    background-color: #263170;
+    background-color: #c1c8ec;
 }
 .flip-card {
     background-color: transparent;
@@ -326,7 +326,7 @@ a {
 /* Intro */
 .intro{
     background-color: white;
-    height: 85vh;
+    height: 75vh;
     margin-top: 0;
     background-position: bottom;
     background-size: cover;
