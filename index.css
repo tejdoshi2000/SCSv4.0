@@ -532,24 +532,24 @@ footer{
 .intro .vision p{
     text-align: center;
     font-weight: 700;
-    font-size: 3vh;
+    font-size: 2vh;
 
 }
 .intro .mission p{
     text-align: center;
     font-weight: 700;
-    font-size: 3vh;
+    font-size: 2vh;
 
 }
 .intro .mission h3{
     text-align: center;
     font-weight: 700;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .intro .vision h3{
     text-align: center;
     font-weight: 700;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 @media only screen and (max-width: 400px){
     .intro{
@@ -558,7 +558,7 @@ footer{
 }
 @media only screen and (max-width: 382px){
     .intro{
-        height: 170vh ;
+        height: 190vh ;
     }
 }
 @media only screen and (max-width: 328px){
