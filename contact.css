@@ -219,12 +219,12 @@ a {
 }
 
 .nav-logo{
-  width: 5em;
-  height: 5em;
+  width: 6em;
+  height: 6em;
 }
 .nav-logo img{
-  height: 4.5em;
-  width: 4.5em;
+  height: 6em;
+  width: 6em;
 }
 .nav-logo:hover{
   color: white;
@@ -323,6 +323,7 @@ a {
           align-items: center;
           text-align: center;
           padding: 1.5rem;
+  
   }
   .main1{
       text-align: center;
