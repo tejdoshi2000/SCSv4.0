@@ -498,7 +498,7 @@ footer{
     text-align: center;
     padding-top: 3rem;
     /* border-top: black dotted; */
-    font-size: 2rem;
+    font-size: 2.5vh;
 } 
 .aboutus p{
     padding: 2rem 12rem;
@@ -532,13 +532,13 @@ footer{
 .intro .vision p{
     text-align: center;
     font-weight: 700;
-    font-size: 2vh;
+    font-size: 2.5vh;
 
 }
 .intro .mission p{
     text-align: center;
     font-weight: 700;
-    font-size: 2vh;
+    font-size: 2.5vh;
 
 }
 .intro .mission h3{
@@ -575,4 +575,16 @@ footer{
     .intro{
         height: 150vh;
     }
+}
+.qualities h3{
+    text-align: center;
+}
+.values h3{
+    text-align: center;
+}
+.qualities p{
+    text-align: center;
+}
+.values p{
+    text-align: center;
 }
