@@ -18,7 +18,8 @@
     height: 25rem;
     perspective: 1000px;
     margin: 3% auto;
-    box-shadow: 5px 10px #ecebeb;
+    padding: 20px;
+    
   }
   .services{
     display: flex;
@@ -35,7 +36,7 @@
     /* text-align: center; */
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(68, 139, 206, 0.2);
+    
   }
   
   .flip-card:hover .flip-card-inner {
@@ -76,10 +77,10 @@
   }
   .flip-card-back li{
       color: black;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
   }
   .flip-card-back ul li{
-      padding: 0.2rem
+      padding: 0.1rem
   }
   .flip-card-back h1{
       color: #263170;
@@ -221,8 +222,8 @@ a {
         padding: 0;
     }
     .nav-logo img{
-        height: 45px;
-        width: 45px;
+        height: 55px;
+        width: 55px;
         padding-bottom: 2px;
         
     }
@@ -265,9 +266,7 @@ a {
     .nav-menu.active {
         left: 0;
     }
-    .nav-logo{
-        /* padding-top: 1rem; */
-    }
+    
 
     .nav-item {
         margin: 1.6rem 0;
@@ -332,7 +331,7 @@ a {
 /* Intro */
 .intro{
     background-color: white;
-    height: 110vh;
+    height: 90vh;
     margin-top: 0;
     background-position: bottom;
     background-size: cover;
@@ -384,6 +383,7 @@ a {
 }
 .whyus h3{
     font-weight: 800;
+    font-size: 3vh;
 }
 
 
@@ -392,7 +392,7 @@ a {
     height: 100%;
     font-size: 1.5rem;
     /* background-image: url("bg111.jpg"); */
-    background-color: #e4e5e7;
+    background-color: white;
     background-position:center;
     background-size: cover;
     font-weight: 400;
@@ -458,7 +458,7 @@ a {
         font-size: 1px;
     }
     .intro{
-        height: 125vh;
+        height: 105vh;
     }  
 }
 @media only screen and (max-width: 520px){
@@ -517,12 +517,12 @@ footer{
     
 @media only screen and (max-width: 876px){
     .intro{
-        height: 120vh;
+        height: 100vh;
     }
 }
 @media only screen and (max-width: 520px){
     .intro{
-        height: 140vh;
+        height: 120vh;
     }
     .aboutus p{
         padding: 2rem 2rem;
@@ -543,32 +543,34 @@ footer{
 }
 .intro .mission h3{
     text-align: center;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 3vh;
+    color: #263170;
 }
 .intro .vision h3{
     text-align: center;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 3vh;
+    color: #263170;
 }
 @media only screen and (max-width: 400px){
     .intro{
-        height: 190vh;
+        height: 170vh;
     }
 }
 @media only screen and (max-width: 382px){
     .intro{
-        height: 190vh ;
+        height: 170vh ;
     }
 }
 @media only screen and (max-width: 328px){
     .intro{
-        height: 190vh;
+        height: 170vh;
     }
 }
 @media only screen and (max-width: 828px){
     .intro{
-        height: 170vh;
+        height: 190vh;
     }
 }
 @media only screen and (min-width: 732px){
@@ -578,13 +580,23 @@ footer{
 }
 .qualities h3{
     text-align: center;
+    color: #263170;
 }
 .values h3{
     text-align: center;
+    color: #263170;
+    
 }
 .qualities p{
     text-align: center;
 }
 .values p{
     text-align: center;
+}
+.whyush1 h1{
+    background-color: rgb(194, 191, 191);
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 20px;
 }
